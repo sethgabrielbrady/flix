@@ -9,6 +9,8 @@
   </head>
 
   <body>
+    <%= render "layouts/header" %>
+
     <div id="wrapper">
       <%= render "layouts/flashes" %>
       <div id="container">
@@ -19,7 +21,6 @@
           <%= yield %>
         </section>
       </div>
-
     </div>
 
     <%= render "layouts/footer" %>
